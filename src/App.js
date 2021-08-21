@@ -1,4 +1,4 @@
-import PromotionCard from './components/promotion/card/Card'
+import PromotionCard from 'components/promotion/card/Card'
 import React from 'react'
 import './App.css';
 
@@ -20,9 +20,7 @@ const App = () => {
   
     return (
       <div className="App">
-        <PromotionCard promotion = {promotion}/>
-        <PromotionCard promotion = {promotion}/>
-       
+        <PromotionCard promotion = {promotion}/>       
       </div>
     );
 }
