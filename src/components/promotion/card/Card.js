@@ -1,12 +1,25 @@
 import React from 'react';
+import './Card.css'
 
 const PromotionCard = (props) => {
-  const {name, idade} = props
+  const {promotion} = props
   return(
-    <div>
-      <h2>Card PromotionCard</h2>
-      <h5>{name}</h5>
-      <h6>{idade}</h6>
+    <div className='promotion-card'>
+      <img className='promotion-card__img' src={promotion.imageUrl}></img>  
+      <div className='promotion-card__info'>
+        
+        <h1  className='promotion-card__title'>{promotion.title}</h1>
+        
+        <span className='promotion-card__price'>R$ {promotion.price}</span>
+        
+        <footer className='promotion-card__footer'>
+          {promotion.comments.length > 0 && (
+          <div className='promotion-card__comment'> "{promotion.comments[0].comment}" </div>)}
+
+          <div className='promotion-card__comment-count'> {promotion.comments.length} comentarios</div>
+          <a className='promotion-card_link' href = {promotion.url} target="_blank">Ir para site</a>
+        </footer>
+      </div>
     </div>
   );
 }
