@@ -1,9 +1,9 @@
 import React from 'react'
 import './UIContainer.css'
-const UIContainer = () =>{
+const UIContainer = ({children}) =>{
   return (
-    <div className='uicontainer'>
-
+    <div className='ui-container'>
+      {children}
     </div>
   )
 }

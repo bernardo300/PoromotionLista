@@ -1,14 +1,13 @@
 import React,{useEffect,useState} from 'react'
 import PromotionSearch from 'components/promotion/search/Search'
-import 'App.css'
-
+import UIContainer from 'components/UI/container/UIContainer'
 
 
 const PagesPromotionSearch = () => {
   return (
-    <div>
+    <UIContainer>
       <PromotionSearch/>
-    </div>
+    </UIContainer>
   ) 
 }
 export default PagesPromotionSearch;
