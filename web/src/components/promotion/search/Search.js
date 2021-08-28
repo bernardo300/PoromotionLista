@@ -10,17 +10,18 @@ const PromotionSearch = ()=> {
   const [search, setSearch] = useState('')
   const params = {}
 
-  if(search){
-    params.title_like = search
-  }
-  
+    if(search){
+      params.title_like = search
+    }
+
   useEffect(() => {
+    
     axios.get('http://localhost:5000/promotions?_embed=comments',{params})
-    .then((response) => {
-      setPromotions(response.data);
-      console.log(response.data)
+      .then((response) => {
+        setPromotions(response.data);
+        console.log(response.data)
+        })
     }, [search])
-  })
 
   return(
     <div className='promotion-search'>
@@ -39,6 +40,6 @@ const PromotionSearch = ()=> {
       <PromotionList promotions={promotions} loading={!promotions.length} />
       
     </div>
-  ) 
-}
+  ); 
+};
 export default PromotionSearch
