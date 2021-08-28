@@ -26,11 +26,13 @@
 .promotion-card__footer {
   display: flex;
   align-items: center;
+  width: 650px;
 }
 
 .promotion-card__comment {
   color: #95a5a6;
   font-weight: 700;
+  max-width: 380px;
 }
 
 .promotion-card__comments-count {
