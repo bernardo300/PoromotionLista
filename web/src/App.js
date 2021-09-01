@@ -1,8 +1,16 @@
 import PromotionCard from 'components/promotion/card/Card'
-import React from 'react'
+import React,{useEffect,useState} from 'react';
 import './App.css';
+import axios from 'axios'
 
 const App = () => {
+
+  useEffect(() => {
+    axios.get('http://localhost:5000/promotions?_embed=comments')
+    .then((response) => {
+      console.log(response.data)
+    }, [])
+  })
 
   const promotion = {
     "id": 1,
