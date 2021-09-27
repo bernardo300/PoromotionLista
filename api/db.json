@@ -21,8 +21,22 @@
     {
       "id": 4,
       "title": "Fone de Ouvido Jaybird Run XT Sport Bluetooth, Cinza",
-      "price": 699.90,
+      "price": 699.9,
       "imageUrl": "https://cdn.gatry.com/gatry-static/promocao/imagem_url/9c4b176eb52bb4877e853cf36393d8fc.jpg"
+    },
+    {
+      "title": "Antena Digital Indusat Interna - AI-960i",
+      "url": "https://www.magazineluiza.com.br/antena-digital-indusat-interna-ai-960i/p/191904400/et/elis/",
+      "imageUrl": "https://a-static.mlcdn.com.br/1500x1500/antena-digital-indusat-interna-ai-960i/magazineluiza/191904400/3f865999c92c3ddc8fdc14a8c69a3cb3.jpg",
+      "price": "24",
+      "id": 6
+    },
+    {
+      "title": "Smartphone Samsung Galaxy A01 Core Preto 32GB",
+      "url": "https://www.casasbahia.com.br/smartphone-samsung-galaxy-a01-core-preto-32gb-tela-infinita-de-5-3-camera-traseira-8mp-android-go-10-0-dual-chip-e-processador-quad-core-55010119/p/55010119?utm_medium=Cpc&utm_source=GP_PLA&IdSku=55010119&idLojista=10037&utm_campaign=tele_smart_samsung&gclid=CjwKCAjwybyJBhBwEiwAvz4G716xYyLmuAUoBM5Ll4-W_8lF0E2fmwgmT4DRN-Kv3aFu8_Bv0zsfthoC2EAQAvD_BwE",
+      "imageUrl": "https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1396844655",
+      "price": "548",
+      "id": 7
     }
   ],
   "comments": [
