@@ -1,4 +1,4 @@
-import PromotionCard from 'components/promotion/card/Card'
+import { PromotionCard } from 'components'
 import React,{useEffect,useState} from 'react';
 import './App.css';
 import axios from 'axios'

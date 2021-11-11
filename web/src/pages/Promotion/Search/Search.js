@@ -1,5 +1,4 @@
-import PromotionSearch from 'components/promotion/search/Search'
-import UIContainer from 'components/UI/container/UIContainer'
+import { PromotionSearch, UIContainer } from 'components'
 
 
 const PagesPromotionSearch = () => {
